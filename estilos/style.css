@@ -1,0 +1,139 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.icone{
+    font-size: 40px;
+    padding-right: 5px;
+}
+
+
+
+body{
+    background-image: linear-gradient(to bottom ,#63766A, #53806d );
+   
+}
+
+main{
+    margin: auto;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    width: 300px;
+
+}
+
+article{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
+    transition-timing-function: ease;
+
+
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  height: 100vh; /* Altura necessária para o alinhamento */
+}   
+
+h1{
+    padding-bottom: 5px;
+}
+
+p{
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+fieldset{
+    border: 0px;
+}
+
+
+div{
+    display: flex;
+    align-items: center; /* Alinhamento vertical (no eixo transversal) */
+}
+
+
+
+input{
+    font-size: 0.9em;
+    width: 200px;
+    height: 40px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 5px;
+    background-color: #679783;
+    color: white;
+    font-size: 17px;
+    height: 50px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #82c0a6;
+
+}
+
+
+#esquec_pass{
+    background-color: white;
+    color: #679783;
+    border: 2px solid #679783;
+    text-align: center;
+}
+
+#esquec_pass:hover{
+    background-color: rgb(233, 255, 245);
+}
+
+
+
+
+.data{
+    background-color: #D6D3B8;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 5px 5px 0px;
+    margin-top: 5px;
+    border: 0;
+    width: 100%;
+
+}
+
+.input-data{
+    border: 0px;
+}
+
+
+.data input{
+    height: 100%;
+    width: 90%;
+
+}
+
+#img{
+    height: 260px;
+    background-image: url(../imagens/padrao.jpg);
+    background-size: cover;
+    border-radius: 30px 30px 0px 0px;
+  
+}
+
+
+
